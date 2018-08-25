@@ -19,7 +19,7 @@ class WebMi_Speed_Up {
     private function load_plugins() {
  
         require_once plugin_dir_path( dirname( __FILE__ ) ) . 'plugins/autoptimize/autoptimize.php';
-        require_once plugin_dir_path( dirname( __FILE__ ) ) . 'plugins/heartbeat-control/heartbeat.php';
+        require_once plugin_dir_path( dirname( __FILE__ ) ) . 'plugins/heartbeat-control/heartbeat-control.php';
         require_once plugin_dir_path( dirname( __FILE__ ) ) . 'plugins/hide-plugin-updates-notifications/wphdpuw.php';
         require_once plugin_dir_path( dirname( __FILE__ ) ) . 'plugins/redis-cache/redis-cache.php';
         require_once plugin_dir_path( dirname( __FILE__ ) ) . 'plugins/wp-super-cache/wp-cache.php';

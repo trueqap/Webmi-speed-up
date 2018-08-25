@@ -3,7 +3,7 @@
  * Plugin Name:       Web:Mi Speed Up 
  * Plugin URI:        https://github.com/trueqap/Webmi-speed-up
  * Description:       WordPress Speed Up package
- * Version:           0.0.4
+ * Version:           0.0.5
  * Author:            Laszlo Patai
  * Author URI:        https://webmi.io
  * Text Domain:       webmi-speed-up
