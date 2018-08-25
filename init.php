@@ -28,8 +28,8 @@ $myUpdateChecker = Puc_v4_Factory::buildUpdateChecker(
  
 function run_plugin_loader() {
  
-    $wsu = new WebMi_Speed_Up();
-    $wsu->run();
+  //  $wsu = new WebMi_Speed_Up();
+  //  $wsu->run();
  
 }
  
