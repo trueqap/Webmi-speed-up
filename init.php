@@ -3,7 +3,7 @@
  * Plugin Name:       Web:Mi Speed Up 
  * Plugin URI:        https://github.com/trueqap/Webmi-speed-up
  * Description:       WordPress Speed Up package
- * Version:           0.0.3
+ * Version:           0.0.4
  * Author:            Laszlo Patai
  * Author URI:        https://webmi.io
  * Text Domain:       webmi-speed-up
@@ -28,8 +28,8 @@ $myUpdateChecker = Puc_v4_Factory::buildUpdateChecker(
  
 function run_plugin_loader() {
  
-  //  $wsu = new WebMi_Speed_Up();
-  //  $wsu->run();
+    $wsu = new WebMi_Speed_Up();
+   	return $wsu;
  
 }
  
